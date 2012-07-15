@@ -1,0 +1,30 @@
+<html>
+<head><title>Sunrise Farm Photo Gallery</title>
+<style type="text/css">
+  body
+  {background-image: url("/background.jpg"); }
+  a:link,a:visited {text-decoration:none;color:#000066; background-color:transparent;}
+  a:hover,a:active {text-decoration:underline;color:black; background-color:#999999;}
+  td.menu {height:50px;background-color:#888888;font-size:16px;vertical-align:top;line-height:200%}
+  table {margin-left:auto;margin-right:auto;background-color:grey; border-color:black;border-style:solid}
+  h1 {text-align:center;}
+  h4 {text-align:center;}
+  div.menu {border-top:groove #555555 thin;padding:5px 5px;width:96px;}
+  div.menu:hover {border-top:groove #555555 thin;background-color:#999999;}
+  div.pad {padding:7px;border-top:groove #555555 thin;}
+</style> 
+</head>
+<body style="font-family: Verdana;">
+<blockquote>
+<table width=99% bgcolor=#1b18b2 cellpadding=0 cellspacing=0><tr><td>
+<table width=100% cellspacing=1 cellpadding=4><tr><td bgcolor=#efeffc>
+<big><big>Sunrise Farm</big></big>
+</td></tr>
+<tr><td>
+
+	<!--content-->
+
+</td></tr></table>
+</td></tr></table>
+</body>
+<html>
