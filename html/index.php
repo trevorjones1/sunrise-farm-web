@@ -3,8 +3,8 @@
 <head>
 	<title>Sunrise Farm Riding Lessons</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<meta name="keywords" content="Horses, horseback riding lessons, Wellington, Ohio, riding lessons, Lorain County, horseback riding, 44090 Lorain, Elyria, sunrise farm, horse, pony, pony lessons, pony riding lessons, lesson">
-	<meta name="description" content="Sunrise Farm offers a safe, fun and relaxing environment for riding students and their parents. We offer beginner, novice and intermediate english and western hour long riding sessions">
+	<meta name="keywords" content="Horses, horseback riding lessons, Wellington, Ohio, riding lessons, Lorain County, horseback riding, 44090 Lorain, Elyria, sunrise farm, horse, pony, pony lessons, pony riding lessons, lesson, boarding">
+	<meta name="description" content="Sunrise Farm offers a safe, fun and relaxing environment for riding students and their parents. We offer beginner, novice and intermediate english and western hour long riding sessions, as well as boarding and training.">
 	<!-- master default -->
 	
 <style type="text/css">
@@ -27,6 +27,7 @@
   <table rules=all cellpadding=0 border=5 style="max-width:775px">
    <tr><td class="menu">
      <div class=menu><a href=index.php>Home</a></div>
+     <div class=menu><a href='index.php?page=boarding'>Boarding</a></div>
      <div class=menu><a href='index.php?page=lessons'>Lessons</a></div>
      <div class=menu><a href='index.php?page=barn'>The Barn</a></div>
      <div class=menu><a href='index.php?page=trailrides'>Trail Rides</a></div>
@@ -36,7 +37,7 @@
      <div class=menu><a href='index.php?page=aboutus'>About Us</a></div>
      <div class=menu><a href='index.php?page=links'>Links</a></div>
      <div class=menu><a href='index.php?page=faq'>FAQ</a></div>
-     <div class=menu><a href='https://maps.google.com/maps?q=sunrise+farm&hl=en&hq=sunrise+farm&hnear=Wellington,+Ohio&t=m&z=12'>Location</a></div>
+     <div class=menu><a href='https://maps.google.com/maps?q=Sunrise+Farm+riding+lessons+and+boarding&hl=en&sll=41.168931,-81.996031&sspn=0.007479,0.016512&t=h&hq=Sunrise+Farm+riding+lessons+and+boarding&z=17'>Location</a></div>
      <div style="border-top:groove #555555 thin"></div>
    </td>
    <td><div class=pad>
@@ -63,8 +64,7 @@ echo"
 	<h3>Phoebe</h3>
 	<img src='phoebe.JPG' alt='phoebe'><br>
 	1994, 15.2h Paint<br>
-	With the patience of a saint, she is the perfect beginner's horse.  Phoebe is an excellent confidence builder
-        for timid riders.  Phoebe loves working in the field or the arena.  Due to arthritis she is limited to walk/trot lessons.
+	Phoebe is retired.  She is living an awesome life as a backyard horse with one of our students.
 	<br>
 	<h3>O'Fudge</h3>
 	<img src='fudge.JPG' alt='fudge'><br>
@@ -73,12 +73,37 @@ echo"
         she will teach you how to fine tune your riding skills.  Fudge enjoys schooling over fences and galloping the fields.
 	<br>
 	<h3>Hugo</h3>
-	<img src='hugo.JPG' alt='hugo'><br>
+	<img src='Hugo1-small.JPG' alt='hugo'><br>
 	2007, 15.2h Mustang mix<br><br>
-	Hugo is Val's horse.  He came to us as a starving 4 month old feral colt.  He shows great promise and Val hopes to be able
-        to make him into her next eventing horse.  Due to his inexperience he is not available for lessons. 
+	Hugo is for sale.  He is not cut out to be an event horse, but would be a perfect barrel or polo pony prospect.  He would
+	also be a good trail horse for an experienced rider.  Contact Val if you are interested in him.
 ";
 }
+else if ($page == 'boarding')
+{
+echo"
+        <img src='TheGirls.JPG' alt=''><br>
+        <hr>	
+ 	We now offer boarding!<br>
+	<ul>
+	  <li>Full care and partial care contracts</li>
+	  <li>Haul in contracts for indoor arena use</li>
+	  <li>80x120 indoor arena</li>
+	  <li>10x12 stalls</li>
+	  <li>Wash stall</li>
+	  <li>Turn out</li>
+	  <li>Secure tack room</li>
+	  <li>Huge heated lounge</li>
+	  <li>High quality feed and hay</li>
+        </ul>
+	Full care starting at $350/month<br>
+	Partial care starting at $200/month<br>
+	<br>
+	Contact Val for more info and to schedule a visit.<br>
+
+";
+}
+
 else if ($page == 'lessons')
 {
 echo"
@@ -241,9 +266,9 @@ echo "
 	    Yes, bring it with you and we can see if it fits the horse you are using.  Thoroughbred or Arabian saddles won't fit
 	      any of our horses.</li><br>
 	  <li>Do you offer boarding?<br>
-	    Not right now, but if we have enough interest we will be building more stalls.</li><br>
+	    Yes!  We recently moved to our new location and now offer full and partial care boarding.</li><br>
 	  <li>Do you offer lessons all year?<br>
-	    Even though we do not have an indoor arena, we offer lessons all year.  Dress appropriately for the seasons.</li><br>
+	    We have an indoor arena and can do lessons in any weather. Dress appropriately for the temperature.</li><br>
 	  <li>Can I buy or pay for lessons in advance?<br>
 	    We offer gift certificates.  You don't save anything by paying in advance and it is difficult to keep track of so it is not
 	      encouraged.</li><br>
@@ -255,8 +280,6 @@ echo "
 	  <li>Why don't I get to pick which horse I ride?<br>
 	    For your free first lesson, Val will pick which horse you ride.  People tend to exaggerate about their riding ability, and we don't
 	     want anyone getting hurt.  </li><br>
-	  <li>Can I use Hugo for my lesson?<br>
-	     Hugo is being trained for eventing.  Due to his inexperience he is not available for lessons. </li><br>
 	  <li>I found a horse I want to buy, can you come and look at it with me?<br>
 	      For students and their families, yes. Gas money or lunch would be appreciated.  For non-students there will be a fee.</li><br>
 	  <li>Do I have to pick out the stalls and clean tack?<br>
@@ -275,9 +298,9 @@ echo "
 	the coming show season schedule. But you will find laughter, smiles and a great respect for our four legged friends. The most important part 
 	about riding, (other than safety) is that it should be fun. 
 	<br>
-	&nbsp;&nbsp;&nbsp;&nbsp;Our small backyard barn teaches the art of riding through classical horsemanship and encourages students to work as 
-	a team with their horse. We are all different and learn at various paces, as do our horses. Lessons take place in the arena, woods or field 
-	depending on the student's riding ability and Ohio's ever changing weather. 
+	&nbsp;&nbsp;&nbsp;&nbsp;Even though we have moved to a larger facility, we still have the attitude of the small backyard barn we started at.
+        We teach the art of riding through classical horsemanship and encourage students to work as 
+	a team with their horse. We are all different and learn at various paces, as do our horses. Lessons take place in the indoor or outdoor arena. 
 	All students learn to ride from the \"ground up\" meaning that they learn how to handle and care for their horse, not just ride. 
 	<br>
 	&nbsp;&nbsp;&nbsp;&nbsp;The barn as a community enjoys having fun and working together as a team. We have recently added Mounted Game Nite to our activity list. Students work in teams
@@ -294,17 +317,19 @@ else //main index
 
 echo "
 	<img src='farm_fall.JPG' alt=''><br>
+        <b>We have moved!  Our new facility is at 8517 Norwalk Rd (Route 18) in Litchfield, right behind Litchfield Medina Tack.</b><br><br>
 	Teaching beginners, children and the young at heart to ride.<br>
 	Please call to schedule a farm tour and free trial riding session.<br>
 	<ul>
-	  <li>English and Western</li>
+	  <li>Specializing in OTTBs (off track thoroughbreds,) Combined Training and Dressage  </li>
 	  <li>Beginner, novice and intermediate</li>
 	  <li>Fun, safe and relaxed environment</li>
 	  <li>Fully insured</li>
-	  <li>Over 10 years of teaching experience</li>
+	  <li>Over 12 years of teaching experience</li>
+	  <li>Full and partial care boarding</li>
 	</ul>
 	We do not offer public trail rides or rentals.<br>
-	We are within a half hour of Elyria, Amherst, Medina and Ashland.
+	We are within a half hour of Elyria, Oberlin, Medina, Wellington and Strongsville.
 
 ";
 
@@ -315,8 +340,8 @@ echo "
 ?>
    </div></td></tr>
   </table>
-  <h4> 26140 State Rt 58, Wellington, Ohio 44090, 440-477-6429, <a href='mailto:val.jones@sunrise-farm.us'> val.jones@sunrise-farm.us</a></h4>
-  <div style='text-align:center'>Updated 7/15/2012</div>
+  <h4> 8517 Norwalk Rd, Litchfield, Ohio 44253, 440-477-6429, <a href='mailto:val.jones@sunrise-farm.us'> val.jones@sunrise-farm.us</a></h4>
+  <div style='text-align:center'>Updated 11/10/2012</div>
 </body>
 </html>
 
